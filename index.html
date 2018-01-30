@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+
+	<title>Web Solutions</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/general.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-togle="collapse" datatarget="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Despliegue de la barra</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				aqui va el logo
+				<a class="navbar-brand" href="#">XXXX</a>
+			</div>
+			<div id="navbar" class="navbar-collapsed collapsed"></div>
+				<ul class="nav navbar-nav">
+					<li><a href="#">Pestaña1</a></li>
+					<li><a href="#">Pestaña2</a></li>
+					<li><a href="#">Pestaña3</a></li>
+					<li><a href="#">Pestaña4</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Pestaña1</a></li>
+					<li><a href="#">Pestaña2</a></li>
+				</ul>
+		</div>	
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Bienvenidos a Easy Solutions5</h1>
+			<div class="verdana_16_black" style="float: right; width: 800px; height: 35px;">
+              <select name="select" id="select" onchange="opcionElegir(this.value)">
+                <option value="Seleccione" selected>Seleccione un tipo de Buqueda</option>
+                <option value="FACTURA">Buscar por Factura</option>
+                <option value="FECHA">Buscar por Fecha </option>
+              </select>
+              <img src="images/logo/easySolutions.jpg" width="20" height="22" border="0" title="Buscar" style="float:center; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;" onClick="buscar();">
+             </div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
+				<p>¡Encuentra los servicios que necesitas!</p>
+				<div class="col-md-8">
+					<img src="images/img_servicios/int_security.PNG" width="60" height="50" border="0" title="Buscar" style="float:center; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;" onClick="buscar();">
+					<img src="images/img_servicios/int_security.PNG" width="60" height="50" border="0" title="Buscar" style="float:center; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;" onClick="buscar();">
+					<img src="images/img_servicios/int_security.PNG" width="60" height="50" border="0" title="Buscar" style="float:center; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;" onClick="buscar();">
+					<img src="images/img_servicios/int_security.PNG" width="60" height="50" border="0" title="Buscar" style="float:center; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;" onClick="buscar();">
+					<img src="images/img_servicios/int_security.PNG" width="60" height="50" border="0" title="Buscar" style="float:center; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;" onClick="buscar();">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="https://www.facebook.com/"><img src="images/icons/facebook.jpg" width="60" height="50" border="0" title="Facebook" style="float:left; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;" ></a>
+				</div>
+				<div class="col-md-4">
+					<a href=""><img src="images/icons/twiter.jpg" width="60" height="50" border="0" title="Buscar" style="float:center; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;" onClick="buscar();">
+				</div>
+				<div class="col-md-4">
+					<a href=""><img src="images/icons/instagram.png" width="60" height="50" border="0" title="Buscar" style="float:center; margin-left: 15px; text-align: center; margin-top: 3px; cursor: pointer;" width="20" height="22" border="0" style="float:right; margin-left: 15px; margin-top: 3px; cursor: pointer;"></a>
+				</div>	
+			</div>
+		</div>
+					
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
